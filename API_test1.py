@@ -15,7 +15,7 @@ print(f"Result 1: {result_1.json()}")
 '''
 
 
-currency_value_API = "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/gbp.jso"
+currency_value_API = "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/gbp.json"
 all_currencies_response = requests.get(currency_value_API)
 
 if all_currencies_response.status_code != 200:
