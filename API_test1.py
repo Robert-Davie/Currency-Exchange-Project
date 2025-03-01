@@ -43,7 +43,8 @@ def main():
         "usd",
         "jpy",
         "inr",
-        "rub"
+        "rub",
+        "hkd"
     ]
         
     result = query_api("gbp", target_currencies)
